@@ -72,7 +72,23 @@ footer {
     background-color: rgba(255, 127, 80, 0.591);
 }
 
-/*Foto familiar que está abajo del título en la página de inicio*/
-.foto-familia {
-    width: 500px;
+/*Aplicando flexbox a la página de inicio*/
+
+#seccion-principal{
+    display: flex;
+    flex-direction: column;
+
+}
+h1{
+    align-self: center; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+img{
+    align-self: center;
+    width: 40%;
+    margin-bottom: 30px;
 }
