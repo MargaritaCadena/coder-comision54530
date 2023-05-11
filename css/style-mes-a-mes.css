@@ -1,0 +1,25 @@
+
+article {
+    display: flex;
+    width: 100%; 
+    justify-content: space-around;
+    
+}
+
+div {
+    align-self: center;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    align-self: center;
+}
+
+img {
+    width: 30%;
+    height: min-content;
+    margin: 20px;
+}
+
