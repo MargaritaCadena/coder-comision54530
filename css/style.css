@@ -33,35 +33,28 @@ header {
     font-size:x-large;
 }
 
-/*Estilos Ul, se quitan viñetas*/
-ul {
-    list-style-type: none;
-    margin:0%;
-    padding: 0%;
+/*Estilos barra de navegación */
+.navbar-nav {
+width: 100%; 
 }
 
-/*Estilos barra de navegación */
-#barra {
+.nav-item {
     font-family: merienda-family;
     font-size: larger;
     display: flex;
     flex-direction: row;
     width: 100%;
-    position: sticky;
+    background-color: #DAA5F0;
     justify-content: space-evenly;
 }
 
-/*Estilo de los LI de la barra de navegación*/
-#barra li {
-    display: inline-block;
-    padding: 8px;
-    background-color: #DAA5F0;
-    flex-grow: 1;
-    text-align: center;
+.navbar{
+    padding: 0px;
+
 }
 
-#barra li a {
-    text-decoration: none;
+.container-fluid{
+    padding: 0px;
 }
 
 /*Estilo footer*/
