@@ -11,13 +11,17 @@ img {
     height: min-content;
     margin: 20px;
 }
+h2 {
+    text-align: center;
+}
 
 ul {
     list-style: none;
 }
 
+/*Se agrega responsive para celular, cambio de posición de los elementos, en columnas*/
+
 @media (max-width: 320px) {
     article {flex-direction: column;}
     img {width: 60%;}
-    h2 {text-align: center;}
 }

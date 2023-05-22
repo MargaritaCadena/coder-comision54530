@@ -57,14 +57,6 @@ width: 100%;
     padding: 0px;
 }
 
-/*Estilo footer*/
-footer {
-    font-family: merienda-family;
-    font-size: small;
-    text-align: center;
-    background-color: rgba(255, 127, 80, 0.591);
-}
-
 /*Aplicando flexbox a la página de inicio*/
 
 #seccion-principal{
@@ -84,4 +76,26 @@ img{
     align-self: center;
     width: 40%;
     margin-bottom: 30px;
+}
+
+/*Estilo footer*/
+footer {
+    font-family: merienda-family;
+    font-size: small;
+    text-align: center;
+    background-color: rgba(255, 127, 80, 0.591);
+}
+
+ul {
+    list-style: none;
+}
+
+/*Se agrega responsive con media query para tablet y celular*/
+
+@media (max-width: 768px){
+    body {background-color: #619be392;}
+}
+
+@media (max-width: 320px){
+    body {background-color: #6ae4da;}
 }
