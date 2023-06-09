@@ -1,0 +1,12 @@
+/*Aplicando flexbox a la página de inicio*/
+#seccion-principal{
+    display: flex;
+    h1{
+        align-self: center;
+    }
+    img {
+        align-self: center;
+        width: 40%;
+        margin-bottom: 30px;
+    }
+}

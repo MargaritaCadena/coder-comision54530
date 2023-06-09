@@ -1,0 +1,47 @@
+/*Se agrega responsive con media query para tablet y celular*/
+
+@media (max-width: 768px) {
+    body {
+        background-color: #ec421890;
+    }
+    footer {
+        background-color: rgba(249, 196, 3, 0.808);
+        }
+}
+
+@media (max-width: 320px) {
+    main {
+        .navbar {
+            .container-fluid {
+                div {
+                    .navbar-nav {
+                        .nav-item {
+                            background-color: rgb(17, 148, 148);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    body {
+        background-color: #6ae4daa9;
+    }
+    footer {
+        background-color: rgba(0, 106, 255, 0.594);
+    }
+}
+
+/*Se agrega responsive para celular, cambio de posición de los elementos, en columnas pagina mes a mes*/
+
+@media (max-width: 320px) {
+    article {
+        flex-direction: column;
+    img {
+        width: 70%;
+        align-self: center;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,26 @@
+/*Para eliminar los estilos de cada navegador*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*tipografías aplicadas*/
+@font-face {
+    font-family: header-family;
+    src: url(../assets/fontFamily/Courgette/Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: merienda-family;
+    src: url(../assets/fontFamily/Merienda/Merienda-VariableFont_wght.ttf);
+}
+
+/*Estilo del body*/
+body {
+    background-color: #d183f391;
+}
+
+ul {
+    list-style: none;
+}

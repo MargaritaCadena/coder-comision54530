@@ -1,0 +1,31 @@
+main {
+        .navbar {
+            padding: 0px;
+            .container-fluid {
+                padding: 0px;
+                
+                    div {
+                        /*Estilos barra de navegación */
+                        .navbar-nav {
+                            width:100%;
+                            
+                                .nav-item {
+                                    font-family: merienda-family;
+                                    font-size: larger;
+                                    display: flex;
+                                    flex-direction: row;
+                                    width: 100%;
+                                    background-color: #DAA5F0;
+                                    justify-content: space-evenly;
+                                }
+                        }
+                    }
+            }
+        
+        }
+        #seccion-principal {
+            display: flex;
+            flex-direction: column;
+        
+        }
+    }
