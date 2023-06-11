@@ -1,6 +1,7 @@
 /*Aplicando flexbox a la página de inicio*/
 #seccion-principal{
-    display: flex;
+    @include display-flex();
+
     h1{
         align-self: center;
     }

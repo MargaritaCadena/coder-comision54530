@@ -2,10 +2,10 @@
 
 @media (max-width: 768px) {
     body {
-        background-color: #ec421890;
+        background-color: $cafe-oscuro;
     }
     footer {
-        background-color: rgba(249, 196, 3, 0.808);
+        background-color: $amarillo-oscuro;
         }
 }
 
@@ -16,7 +16,7 @@
                 div {
                     .navbar-nav {
                         .nav-item {
-                            background-color: rgb(17, 148, 148);
+                            background-color: $azul1;
                         }
                     }
                 }
@@ -24,10 +24,10 @@
         }
     }
     body {
-        background-color: #6ae4daa9;
+        background-color: $azul2;
     }
     footer {
-        background-color: rgba(0, 106, 255, 0.594);
+        background-color: $azul3;
     }
 }
 

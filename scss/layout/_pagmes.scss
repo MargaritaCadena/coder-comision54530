@@ -1,9 +1,8 @@
 /*ESstilos página mes a mes*/
 article {
-    display: flex;
+    @include display-flex();
     width: 100%;
     justify-content: space-around;
-
 }
 
 img {

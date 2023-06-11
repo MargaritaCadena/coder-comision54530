@@ -18,9 +18,11 @@
 
 /*Estilo del body*/
 body {
-    background-color: #d183f391;
+    background-color: $morado2;
 }
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }

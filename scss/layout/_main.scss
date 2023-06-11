@@ -10,12 +10,12 @@ main {
                             width:100%;
                             
                                 .nav-item {
+                                    @include display-flex();
+
                                     font-family: merienda-family;
                                     font-size: larger;
-                                    display: flex;
-                                    flex-direction: row;
                                     width: 100%;
-                                    background-color: #DAA5F0;
+                                    background-color: $lila;
                                     justify-content: space-evenly;
                                 }
                         }
@@ -24,8 +24,6 @@ main {
         
         }
         #seccion-principal {
-            display: flex;
-            flex-direction: column;
-        
+            @include display-flex(column);
         }
     }

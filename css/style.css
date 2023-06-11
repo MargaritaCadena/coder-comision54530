@@ -22,6 +22,8 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*Propiedades del header, background y font*/
@@ -57,12 +59,12 @@ main .navbar .container-fluid div .navbar-nav {
   width: 100%;
 }
 main .navbar .container-fluid div .navbar-nav .nav-item {
-  font-family: merienda-family;
-  font-size: larger;
   display: flex;
   flex-direction: row;
+  font-family: merienda-family;
+  font-size: larger;
   width: 100%;
-  background-color: #DAA5F0;
+  background-color: #daa5f0;
   justify-content: space-evenly;
 }
 main #seccion-principal {
@@ -111,6 +113,7 @@ footer {
 /*Aplicando flexbox a la página de inicio*/
 #seccion-principal {
   display: flex;
+  flex-direction: row;
 }
 #seccion-principal h1 {
   align-self: center;
@@ -124,6 +127,7 @@ footer {
 /*ESstilos página mes a mes*/
 article {
   display: flex;
+  flex-direction: row;
   width: 100%;
   justify-content: space-around;
 }
