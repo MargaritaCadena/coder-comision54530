@@ -142,4 +142,18 @@ h2 {
   text-align: center;
 }
 
+section article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+section article p h3 {
+  text-align: center;
+}
+section article img {
+  width: 30%;
+  height: min-content;
+  margin: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
