@@ -1,29 +1,68 @@
-main {
+body {
+    main {
         .navbar {
             padding: 0px;
+
             .container-fluid {
                 padding: 0px;
-                
-                    div {
-                        /*Estilos barra de navegación */
-                        .navbar-nav {
-                            width:100%;
-                            
-                                .nav-item {
-                                    @include display-flex();
 
-                                    font-family: merienda-family;
-                                    font-size: larger;
-                                    width: 100%;
-                                    background-color: $lila;
-                                    justify-content: space-evenly;
-                                }
+                div {
+
+                    /*Estilos barra de navegación */
+                    .navbar-nav {
+                        width: 100%;
+
+                        .nav-item {
+                            @include display-flex();
+
+                            font-family: merienda-family;
+                            font-size: 25px;
+                            width: 100%;
+                            background-color: $lila;
+                            justify-content: space-evenly;
                         }
                     }
+                }
             }
-        
+
         }
-        #seccion-principal {
-            @include display-flex(column);
+
+        section {
+            font-family: textos-family;
+            font-size: 20px;
+            padding-top: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            article {
+                @include display-flex();
+                /*display: flex;
+                flex-direction: column;*/
+                width: 100%;
+                padding-top: 30px;
+
+                h1 {
+                    text-align: center;
+                }
+
+                h3 {
+                    font-style: italic;
+                    font-weight: bold;
+                }
+
+                h4 {
+                    font-style: italic;
+                    font-weight: bold;
+                }
+
+                img {
+                    @include display-flex();
+                    flex-direction: column;
+                    align-self: center;
+                    width: 40%;
+                    margin-bottom: 30px;
+                }
+            }
         }
     }
+}

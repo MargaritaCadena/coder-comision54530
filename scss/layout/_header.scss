@@ -1,20 +1,19 @@
 /*Propiedades del header, background y font*/
-header {
+body {
+    header {
         padding: 90px;
         background-image: url(../assets/images/foto-padres-header.jpg);
         background-size: cover;
         background-position: center;
         width: 100%;
         height: 100%;
-        font-family: header-family;
-        font-size: x-large;
 
         h1 {
-            align-self: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: header-family;
             font-style: italic;
-            font-size: xx-large;
+            font-size: 55px;
             margin-top: 50px;
             margin-bottom: 50px;
         }
     }
+}

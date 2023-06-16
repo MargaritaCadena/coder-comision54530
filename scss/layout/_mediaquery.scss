@@ -1,47 +1,57 @@
 /*Se agrega responsive con media query para tablet y celular*/
 
+/*
 @media (max-width: 768px) {
-    body {
-        background-color: $cafe-oscuro;
-    }
-    footer {
-        background-color: $amarillo-oscuro;
-        }
-}
-
-@media (max-width: 320px) {
-    main {
-        .navbar {
-            .container-fluid {
-                div {
-                    .navbar-nav {
-                        .nav-item {
-                            background-color: $azul1;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    body {
-        background-color: $azul2;
-    }
-    footer {
-        background-color: $azul3;
-    }
-}
+    
+}*/
 
 /*Se agrega responsive para celular, cambio de posición de los elementos, en columnas pagina mes a mes*/
 
 @media (max-width: 320px) {
-    article {
-        flex-direction: column;
-    img {
-        width: 70%;
-        align-self: center;
+    body {
+        header {
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        main {
+            nav {
+                .container-fluid {
+                    .collapse {
+                        .navbar-nav {
+                            .nav-item {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            section {
+                font-size: 18px;
+
+                article {
+                    flex-direction: column;
+
+                    img {
+                        width: 70%;
+                        align-self: center;
+                    }
+                }
+
+                iframe {
+                    width: 250px;
+                    height: 200px;
+                }
+            }
+        }
+
+        footer {
+            ul {
+                width: 100%;
+            }
+
         }
     }
 }
-
-
-

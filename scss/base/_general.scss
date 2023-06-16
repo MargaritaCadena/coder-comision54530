@@ -8,12 +8,17 @@
 /*tipografías aplicadas*/
 @font-face {
     font-family: header-family;
-    src: url(../assets/fontFamily/Courgette/Courgette-Regular.ttf);
+    src: url(../../assets/fontFamily/Courgette/Courgette-Regular.ttf);
 }
 
 @font-face {
     font-family: merienda-family;
-    src: url(../assets/fontFamily/Merienda/Merienda-VariableFont_wght.ttf);
+    src: url(../../assets/fontFamily/Merienda/Merienda-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: textos-family;
+    src: url(../../assets/fontFamily/Lato/Lato-Regular.ttf)
 }
 
 /*Estilo del body*/
