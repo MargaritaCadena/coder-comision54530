@@ -1,9 +1,43 @@
 /*Se agrega responsive con media query para tablet y celular*/
 
-/*
 @media (max-width: 768px) {
-    
-}*/
+    body {
+        header {
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        main {
+            .navbar {
+                .container-fluid {
+                    .navbar-collapse {
+                        .navbar-nav {
+                            .nav-item {
+                                .nav-link {
+                                    text-align: center;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+            section {
+                article {
+                    img {
+                        width: 70%;
+                    }
+                }
+            }
+
+            iframe {
+                width: 100%;
+            }
+        }
+
+    }
+}
 
 /*Se agrega responsive para celular, cambio de posición de los elementos, en columnas pagina mes a mes*/
 
@@ -11,7 +45,7 @@
     body {
         header {
             h1 {
-                font-size: 40px;
+                font-size: 30px;
             }
         }
 
@@ -44,6 +78,10 @@
                     width: 250px;
                     height: 200px;
                 }
+            }
+
+            iframe {
+                width: 100%;
             }
         }
 

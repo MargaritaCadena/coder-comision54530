@@ -112,14 +112,24 @@ body footer {
 }
 
 /*Se agrega responsive con media query para tablet y celular*/
-/*
 @media (max-width: 768px) {
-
-}*/
+  body header h1 {
+    font-size: 40px;
+  }
+  body main .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+    text-align: center;
+  }
+  body main section article img {
+    width: 70%;
+  }
+  body main iframe {
+    width: 100%;
+  }
+}
 /*Se agrega responsive para celular, cambio de posición de los elementos, en columnas pagina mes a mes*/
 @media (max-width: 320px) {
   body header h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   body main nav .container-fluid .collapse .navbar-nav .nav-item {
     font-size: 18px;
@@ -137,6 +147,9 @@ body footer {
   body main section iframe {
     width: 250px;
     height: 200px;
+  }
+  body main iframe {
+    width: 100%;
   }
   body footer ul {
     width: 100%;
